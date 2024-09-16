@@ -15,5 +15,6 @@ app.use('/generos', GeneroRouter);
 app.use('/jogos', JogoRouter);
 app.use('/plataformas', PlataformaRouter);
 app.use('/usuarios', UsuarioRouter);
+app.use('/teste', () => 'oi');
 
 export default app;
